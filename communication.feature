@@ -13,4 +13,4 @@ Then <client-devices> should be able to establish a network communication with l
 
 Examples:
 |service-instance-name|hostname|port|client-devices
-|livelinkapp[12345]|livelink|8443|Android, iOS
+|livelinkapp[12345]   |livelink|8443|Android, iOS
