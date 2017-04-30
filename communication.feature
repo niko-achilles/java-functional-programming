@@ -11,4 +11,4 @@ Then <client> should be able to establish a network communication with livelink 
 
 Examples:
 | service instance name | hostname | port | client
-| livelinkapp[12345]    | livelink | 8443 | AndroidiOS
+| livelinkapp[12345]    | li       | 8443 | AndroidiOS
