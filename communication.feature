@@ -1,7 +1,7 @@
 Feature: network communication with livelink controller
 to establish a network communication with livelink controller
 
-Scenario outline: Resolve the livelink mdns service instance object for communication purposes
+Scenario Outline: Resolve the livelink mdns service instance object for communication purposes
 
 Given <service instance name> is the service-instance-name of livelink that is found(added) on Network
 
