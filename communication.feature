@@ -5,7 +5,7 @@ Scenario outline: Resolve the livelink mdns service instance object for communic
 
 Given <service instance name> is the service-instance-name of livelink that is found(added) on Network
 
-When resolve <service instance name> as service instance name of type _http._tcp and domain .local on Network
+When resolve <service instance name> as service instance name of type http tcp and domain local on Network
 
 Then <hostname> is the hostname value that should be parsed on Network
 Then <port> is the port value that should be parsed on Network
