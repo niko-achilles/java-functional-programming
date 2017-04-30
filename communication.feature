@@ -5,10 +5,10 @@ Scenario Outline: Resolve the livelink mdns service instance object for communic
 
 Given <service instance name> is the service-instance-name of livelink that is found(added) on Network
 When resolve <service instance name> as service instance name of type http tcp and domain local on Network
-Then <host> is the hostname value that should be parsed on Network
+Then <hostname> is the hostname value that should be parsed on Network
 Then <port> is the port value that should be parsed on Network
 Then <client> should be able to establish a network communication with livelink controller on Network
 
 Examples:
-| service instance name | host     | port | client
+| service instance name | hostname | port | client
 | livelinkapp[12345]    | livelink | 8443 | AndroidiOS
